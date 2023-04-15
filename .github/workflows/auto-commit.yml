@@ -18,7 +18,7 @@ jobs:
       - name: Push
         run: |
           git diff
-          git config --global user.email "nindle@gmail.com"
+          git config --global user.email "1104892323@qq.com"
           git config --global user.name "nindle"
           git add -A
           git commit -m "Updated Readme" || exit
